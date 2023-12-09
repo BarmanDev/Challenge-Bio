@@ -1,0 +1,41 @@
+.photo-bio {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.photo-bio img {
+    width: 13rem;
+    height: auto;
+    border-radius: 100%;
+    margin: 1rem;
+}
+
+.article{
+    margin: 1rem 20rem;
+
+}
+
+.article p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+.buttons-bio{
+        margin: 1rem 20rem;
+    
+}
+
+
+@media (max-width: 1024px) {
+    .article,
+    .buttons-bio {
+      margin: 3rem 1rem; 
+     font-size: 1.5rem;
+    }
+  
+    .photo-bio {
+      align-items: flex-start; 
+    }
+  }

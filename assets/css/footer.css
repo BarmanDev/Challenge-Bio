@@ -1,0 +1,16 @@
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.social-media img {
+    width: 2.5rem; 
+
+  }
+  
+  .social-media img:hover {
+    opacity: 0.8;
+    transition: opacity 0.3s ease-in-out;
+  }
